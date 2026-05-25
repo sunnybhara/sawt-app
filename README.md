@@ -16,6 +16,7 @@ Everything runs on your Mac. Your voice is never uploaded.
 ![macOS](https://img.shields.io/badge/macOS-Apple_Silicon-0E1513?logo=apple&logoColor=white)
 ![Signed & Notarized](https://img.shields.io/badge/Signed_%26_Notarized-Apple_Developer_ID-3C7A12)
 ![On-device](https://img.shields.io/badge/100%25-on--device-0E1513?labelColor=C6F24A)
+![Cleanup by ALLaM](https://img.shields.io/badge/cleanup-ALLaM%20(HUMAIN)-3C7A12?labelColor=0E1513)
 ![Latest](https://img.shields.io/github/v/release/sunnybhara/sawt-app?color=3C7A12&label=latest)
 ![Downloads](https://img.shields.io/github/downloads/sunnybhara/sawt-app/total?color=0E1513&label=downloads)
 
@@ -82,6 +83,15 @@ Because everything stays on the device, Sawt fits where cloud dictation cannot: 
 
 - **Apple Silicon Mac** (M1 or later). Intel Macs are not supported in this build.
 - The speech model ships inside the app, so dictation works **fully offline**.
+
+## Under the hood
+
+Two stages, both running on your Mac:
+
+- **Speech to text:** a fine-tuned Arabic Whisper model (whisper.cpp), accelerated with Metal.
+- **Cleanup:** [**ALLaM**](https://huggingface.co/ALLaM-AI), HUMAIN's Arabic LLM, handles the dialect-aware cleanup: punctuation, restoring the English terms you mix in, and keeping your dialect intact rather than flattening it into formal Arabic.
+
+Nothing is sent to a server. Both models ship inside the app.
 
 ## FAQ
 
