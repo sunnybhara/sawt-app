@@ -37,13 +37,13 @@ Everything runs on your Mac. Your voice is never uploaded.
 <td width="33%" valign="top">
 
 ### 🔒 Private by design
-Your speech is transcribed and cleaned on your own machine. Nothing is sent to a server. It is the only Arabic dictation built for privacy from the ground up.
+Your speech is transcribed and cleaned on your own machine. Nothing is sent to a server. Privacy is the default here, not a toggle, which is what lets it fit sensitive and regulated work.
 
 </td>
 <td width="33%" valign="top">
 
-### 🗣️ Speaks your dialect
-Khaleeji, Egyptian, Levantine, Iraqi, Maghrebi and MSA, kept the way you actually talk instead of flattened into formal Arabic. It even handles the English you mix in.
+### 🗣️ Arabic-first, not Arabic-also
+Most tools bolt Arabic onto a hundred-language model and flatten your dialect into formal Arabic. Sawt is built for Arabic: Khaleeji, Egyptian, Levantine, Iraqi, Maghrebi and MSA, kept the way you actually talk, and it handles the English you mix in.
 
 </td>
 <td width="33%" valign="top">
