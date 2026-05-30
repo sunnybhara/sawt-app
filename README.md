@@ -65,7 +65,7 @@ No menus, no setup tax. Hold, speak, done.
 
 ## Install
 
-1. Download `Sawt-0.1.4-arm64.dmg` from the [latest release](https://github.com/sunnybhara/sawt-app/releases/latest).
+1. Download `Sawt-0.1.5-arm64.dmg` from the [latest release](https://github.com/sunnybhara/sawt-app/releases/latest).
 2. Open the DMG and drag **Sawt** into your Applications folder.
 3. Launch Sawt. It walks you through a quick setup and the macOS permissions it needs:
    - **Microphone**, so it can hear you.
